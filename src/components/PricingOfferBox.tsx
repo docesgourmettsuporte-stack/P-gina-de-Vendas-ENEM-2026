@@ -22,11 +22,7 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
   const [showSpecialOfferModal, setShowSpecialOfferModal] = useState<boolean>(false);
 
   const handleBasicCheckout = () => {
-    if (onOpenCheckoutPlan) {
-      onOpenCheckoutPlan('basic');
-    } else {
-      redirectToCheckout(CHECKOUT_URLS.basic, 'Pacote Básico', 14.99);
-    }
+    setShowSpecialOfferModal(true);
   };
 
   const handleAcceptDiscount = () => {
@@ -347,8 +343,18 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
 
       {/* Special Offer Pop-up Modal (Upsell / Downsell R$ 19,90) */}
       {showSpecialOfferModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-fade-in overflow-y-auto">
-          <div className="relative w-full max-w-lg max-h-[94vh] overflow-y-auto bg-gradient-to-b from-slate-900 via-slate-900 to-[#0b1329] border-2 border-amber-400 rounded-2xl sm:rounded-3xl p-5 sm:p-7 md:p-8 shadow-[0_0_50px_rgba(245,158,11,0.25)] text-center text-white my-auto">
+        <div 
+          onClick={(e) => {
+            if (e.target === e.currentTarget) {
+              setShowSpecialOfferModal(false);
+            }
+          }}
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/85 backdrop-blur-md animate-fade-in overflow-y-auto cursor-pointer"
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            className="relative w-full max-w-lg max-h-[94vh] overflow-y-auto bg-gradient-to-b from-slate-900 via-slate-900 to-[#0b1329] border-2 border-amber-400 rounded-2xl sm:rounded-3xl p-5 sm:p-7 md:p-8 shadow-[0_0_50px_rgba(245,158,11,0.25)] text-center text-white my-auto cursor-default"
+          >
             
             {/* Close Button */}
             <button
