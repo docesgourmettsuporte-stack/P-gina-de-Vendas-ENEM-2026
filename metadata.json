@@ -1,0 +1,6 @@
+{
+  "name": "ENEM: Não Estudei. E Agora? — Página de Vendas de Alta Conversão",
+  "description": "Landing page de alta conversão com gatilhos mentais, escassez, oferta irresistível e simulador estratégico para estudantes do ENEM.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
