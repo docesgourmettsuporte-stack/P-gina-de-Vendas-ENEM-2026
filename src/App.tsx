@@ -2,9 +2,7 @@ import React from 'react';
 import { TopScarcityBar } from './components/TopScarcityBar';
 import { HeroSection } from './components/HeroSection';
 import { PainPointsSection } from './components/PainPointsSection';
-import { MethodSection } from './components/MethodSection';
 import { MaterialShowcase } from './components/MaterialShowcase';
-import { TriSimulator } from './components/TriSimulator';
 import { SocialProofSection } from './components/SocialProofSection';
 import { BonusesSection } from './components/BonusesSection';
 import { PricingOfferBox } from './components/PricingOfferBox';
@@ -51,28 +49,22 @@ export default function App() {
         {/* 2. Direct Contrast: O Erro Desesperado vs. A Rota 80/20 */}
         <PainPointsSection onScrollToOffer={() => handleScrollToSection('oferta')} />
 
-        {/* 3. The 3 Core Pillars (TRI, Redação 900+, Matriz 80/20) */}
-        <MethodSection onScrollToOffer={() => handleScrollToSection('oferta')} />
-
-        {/* 4. Real Sneak Peek of the Materials */}
+        {/* 3. Real Sneak Peek of the Materials (Amostra Real do Material) */}
         <MaterialShowcase onOpenCheckout={() => handleScrollToSection('oferta')} />
 
-        {/* 5. Interactive TRI Diagnosis & Simulation */}
-        <TriSimulator onOpenCheckout={() => handleScrollToSection('oferta')} />
-
-        {/* 6. Verified Social Proof (UFMG, USP, UFRJ) */}
-        <SocialProofSection onOpenCheckout={() => handleScrollToSection('oferta')} />
-
-        {/* 7. Super Bonuses Section (Todos os 6 Bônus Inclusos) */}
+        {/* 4. Super Bonuses Section (Todos os 5 Bônus Inclusos) */}
         <BonusesSection onOpenCheckout={() => handleScrollToSection('oferta')} />
 
-        {/* 8. Exclusive 2-Card Offer Box: Pacote Básico (R$ 14,99) vs Pacote Completo (R$ 27,90) */}
+        {/* 5. Exclusive 2-Card Offer Box: Pacote Básico (R$ 14,99) vs Pacote Completo (R$ 27,90) */}
         <PricingOfferBox onOpenCheckoutPlan={handleOpenCheckoutPlan} />
 
-        {/* 9. 30-Day Unconditional Guarantee */}
+        {/* 6. 30-Day Unconditional Guarantee */}
         <GuaranteeSection onScrollToOffer={() => handleScrollToSection('oferta')} />
 
-        {/* 10. Quick FAQ */}
+        {/* 7. Verified Social Proof (UFMG, USP, UFRJ) */}
+        <SocialProofSection onOpenCheckout={() => handleScrollToSection('oferta')} />
+
+        {/* 8. Quick FAQ */}
         <FaqSection />
       </main>
 

@@ -3,6 +3,11 @@ import avatarGabriel from '../assets/images/depoimento_gabriel_1788322801674.jpg
 import avatarMatheus from '../assets/images/depoimento_matheus_1788322813074.jpg';
 import avatarRafaela from '../assets/images/depoimento_rafaela_1788322823481.jpg';
 import avatarLeticia from '../assets/images/depoimento_leticia_1788322833086.jpg';
+import bonusCronogramaMockup from '../assets/images/mockup_cronograma_enem_1789268493893.jpg';
+import bonusRedacaoMockup from '../assets/images/mockup_repertorios_redacao_1789268507451.jpg';
+import bonusExatasMockup from '../assets/images/mockup_mapa_formulas_1789268520233.jpg';
+import bonusFlashcardsMockup from '../assets/images/mockup_flashcards_enem_1789268531565.jpg';
+import bonusMedicinaMockup from '../assets/images/mockup_medicina_enem_1789268544623.jpg';
 
 export const WHATSAPP_TESTIMONIALS: WhatsAppTestimonial[] = [
   {
@@ -342,59 +347,56 @@ export const BONUSES: BonusItem[] = [
   {
     id: 'bonus-1',
     badge: 'BÔNUS EXCLUSIVO 01',
-    title: 'Cronograma de Choque ENEM (30, 15 e 7 Dias)',
-    subtitle: 'Plano diário de contingência passo a passo',
-    description: 'Roteiro diário ultra condensado para você sentar e estudar exatamente o que precisa sem perder 1 minuto decidindo o que fazer.',
+    title: 'Cronograma ENEM — Plano de Estudo Completo',
+    subtitle: 'Organize suas semanas e turbine sua preparação!',
+    description: 'Roteiro prático e flexível de estudo, dividindo matérias e exercícios semana a semana para você ter clareza total do que priorizar.',
     originalPrice: 19.90,
     iconName: 'CalendarCheck',
-    highlightTag: 'Mais Pedido',
+    highlightTag: 'Plano Semanal',
+    image: bonusCronogramaMockup,
   },
   {
     id: 'bonus-2',
     badge: 'BÔNUS EXCLUSIVO 02',
-    title: 'Checklist Anti-Branco de Conteúdos que Mais Caem',
-    subtitle: 'Matriz visual de prioridades por disciplina',
-    description: 'Um mapa visual de calor mostrando exatamente o que você já dominou e os 5 tópicos obrigatórios que você não pode ir para a prova sem saber.',
-    originalPrice: 14.90,
-    iconName: 'CheckSquare',
+    title: 'Repertórios Coringas para Redação',
+    subtitle: 'Repertórios, referências e argumentos para você mandar bem!',
+    description: 'Filósofos, alusões históricas, citações e artigos da Constituição Federal de 1988 que se encaixam com perfeição em qualquer eixo temático da Redação para cravar 900+.',
+    originalPrice: 24.90,
+    iconName: 'BookOpenCheck',
+    highlightTag: 'Nota 900+',
+    image: bonusRedacaoMockup,
   },
   {
     id: 'bonus-3',
     badge: 'BÔNUS EXCLUSIVO 03',
-    title: '15 Repertórios Socioculturais Coringas',
-    subtitle: 'Filósofos, constituição e dados que cabem em qualquer redação',
-    description: 'Citações e argumentos universais de Bauman, Habermas, Cidadão de Papel e CF/88 já formatados para a introdução e desenvolvimento.',
+    title: 'Mapa de Fórmulas (Física, Matemática e Química)',
+    subtitle: 'Tudo o que você precisa para arrasar no ENEM!',
+    description: 'Guia visual sintético com todas as fórmulas indispensáveis e mnemônicos rápidos de Exatas para você não perder tempo decorando o que não cai.',
     originalPrice: 19.90,
-    iconName: 'BookOpenCheck',
-    highlightTag: 'Nota 900+',
+    iconName: 'Layers',
+    image: bonusExatasMockup,
   },
   {
     id: 'bonus-4',
     badge: 'BÔNUS EXCLUSIVO 04',
-    title: 'Mapa Mental de Fórmulas e Macetes de Exatas',
-    subtitle: 'Física, Química e Matemática sem decoreba chata',
-    description: 'Resumos visuais com mnemônicos e fórmulas essenciais que garantem mais de 100 pontos imediatos em Matemática e Natureza.',
-    originalPrice: 12.90,
-    iconName: 'Layers',
+    title: 'Flashcards ENEM — Revise Onde e Quando Quiser',
+    subtitle: 'Conteúdos de todas as áreas para revisão rápida e eficiente!',
+    description: 'Baralho digital de repetição espaçada e perguntas-chave para fixar os conceitos mais cobrados de Linguagens, Humanas, Natureza e Matemática diretamente no celular.',
+    originalPrice: 19.90,
+    iconName: 'Zap',
+    highlightTag: 'Alta Retenção',
+    image: bonusFlashcardsMockup,
   },
   {
     id: 'bonus-5',
     badge: 'BÔNUS EXCLUSIVO 05',
-    title: '120 Flashcards Digitais de Alta Retenção',
-    subtitle: 'Revisão relâmpago no celular em filas e intervalos',
-    description: 'Cartões inteligentes com perguntas e respostas diretas dos conceitos mais cobrados de História, Biologia e Gramática Aplicada.',
-    originalPrice: 19.90,
-    iconName: 'Zap',
-  },
-  {
-    id: 'bonus-6',
-    badge: 'BÔNUS EXCLUSIVO 06',
-    title: 'Guia de Chute Técnico e Gestão de Tempo de Prova',
-    subtitle: 'Como gerenciar os 3 minutos por questão sem cansaço',
-    description: 'Manual tático para nunca mais deixar cartão-resposta em branco e saber exatamente a ordem ideal de resolução dos cadernos.',
-    originalPrice: 17.90,
-    iconName: 'ClockAlert',
-    highlightTag: 'Estratégia Pura',
+    title: '4 Pilares Fundamentais para Medicina no ENEM',
+    subtitle: 'Para quem tem Medicina ou cursos concorridos como objetivo!',
+    description: 'O manual de alta performance indispensável para quem busca as notas de corte mais altas: Foco, Método, Mentalidade Vencedora e Melhoria Contínua.',
+    originalPrice: 24.90,
+    iconName: 'HeartPulse',
+    highlightTag: 'Alta Concorrência',
+    image: bonusMedicinaMockup,
   },
 ];
 
@@ -641,7 +643,7 @@ export const FAQS: FaqItem[] = [
   {
     id: 'faq-3',
     category: 'acesso',
-    question: 'Como e quando recebo o acesso ao Guia e aos 6 Bônus?',
+    question: 'Como e quando recebo o acesso ao Guia e aos 5 Bônus?',
     answer: 'O acesso é imediato e 100% digital! Assim que seu pagamento for confirmado via PIX (liberação automática em menos de 20 segundos), você recebe seus dados de acesso diretamente no seu e-mail e WhatsApp cadastrados, com área de membros e downloads em PDF para ler no celular, tablet ou computador.',
   },
   {

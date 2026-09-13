@@ -9,7 +9,7 @@ export const MaterialShowcase: React.FC<MaterialShowcaseProps> = ({ onOpenChecko
   const [activeTab, setActiveTab] = useState<'redacao' | 'tri'>('redacao');
 
   return (
-    <section className="py-14 md:py-20 bg-[#050b14] border-t border-slate-800/80">
+    <section id="amostra" className="py-14 md:py-20 bg-[#050b14] border-t border-slate-800/80 scroll-mt-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         
         {/* Header */}

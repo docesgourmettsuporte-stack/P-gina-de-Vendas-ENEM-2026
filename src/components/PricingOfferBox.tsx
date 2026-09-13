@@ -198,7 +198,7 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
               </div>
 
               <p className="text-xs sm:text-sm text-slate-300 mb-5 leading-relaxed">
-                A rota cirúrgica com o <strong>Guia Principal + Todos os 6 Bônus Aceleradores</strong> para blindar sua Redação em 900+ e maximizar sua nota.
+                A rota cirúrgica com o <strong>Guia Principal + Todos os 5 Bônus Aceleradores</strong> para blindar sua Redação em 900+ e maximizar sua nota.
               </p>
 
               {/* Highlighted Price Box with Vivid Accent */}
@@ -230,7 +230,7 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
               <div className="space-y-2.5 mb-6">
                 <div className="text-xs font-bold text-amber-300 uppercase tracking-wider flex items-center gap-1.5">
                   <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
-                  <span>Tudo do Pacote Básico + 6 Bônus Estratégicos Inclusos:</span>
+                  <span>Tudo do Pacote Básico + 5 Bônus Estratégicos Inclusos:</span>
                 </div>
 
                 <div className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-200">
@@ -248,8 +248,8 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
                     <Check className="w-3 h-3" />
                   </div>
                   <div>
-                    <strong className="text-amber-300">BÔNUS 1: Cronograma de Choque ENEM (30, 15 e 7 Dias)</strong>
-                    <span className="text-slate-400 text-xs block">Roteiro diário condensado para estudar sem perder tempo.</span>
+                    <strong className="text-amber-300">BÔNUS 1: Cronograma ENEM — Plano de Estudo Completo</strong>
+                    <span className="text-slate-400 text-xs block">Organize suas semanas e turbine sua preparação com metas claras.</span>
                   </div>
                 </div>
 
@@ -258,8 +258,8 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
                     <Check className="w-3 h-3" />
                   </div>
                   <div>
-                    <strong className="text-white">BÔNUS 2: Checklist Anti-Branco de Conteúdos que Mais Caem</strong>
-                    <span className="text-slate-400 text-xs block">Matriz visual de prioridades com tópicos obrigatórios.</span>
+                    <strong className="text-amber-300">BÔNUS 2: Repertórios Coringas para Redação</strong>
+                    <span className="text-slate-400 text-xs block">Referências, dados e argumentos universais para garantir nota 900+.</span>
                   </div>
                 </div>
 
@@ -268,8 +268,8 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
                     <Check className="w-3 h-3" />
                   </div>
                   <div>
-                    <strong className="text-amber-300">BÔNUS 3: 15 Repertórios Socioculturais Coringas (Redação 900+)</strong>
-                    <span className="text-slate-400 text-xs block">Citações e argumentos universais prontos para introdução e D1/D2.</span>
+                    <strong className="text-white">BÔNUS 3: Mapa de Fórmulas (Física, Matemática e Química)</strong>
+                    <span className="text-slate-400 text-xs block">Resumo direto e visual com tudo o que você precisa para arrasar no TRI.</span>
                   </div>
                 </div>
 
@@ -278,8 +278,8 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
                     <Check className="w-3 h-3" />
                   </div>
                   <div>
-                    <strong className="text-white">BÔNUS 4: Mapa Mental de Fórmulas e Macetes de Exatas</strong>
-                    <span className="text-slate-400 text-xs block">Macetes de Matemática, Física e Química sem decoreba chata.</span>
+                    <strong className="text-white">BÔNUS 4: Flashcards ENEM — Revise Onde e Quando Quiser</strong>
+                    <span className="text-slate-400 text-xs block">Revisão rápida e eficiente em todas as áreas do conhecimento.</span>
                   </div>
                 </div>
 
@@ -288,18 +288,8 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
                     <Check className="w-3 h-3" />
                   </div>
                   <div>
-                    <strong className="text-white">BÔNUS 5: 120 Flashcards Digitais de Alta Retenção</strong>
-                    <span className="text-slate-400 text-xs block">Revisão relâmpago no celular dos conceitos mais cobrados.</span>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-2.5 text-xs sm:text-sm text-slate-200">
-                  <div className="w-4 h-4 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center shrink-0 mt-0.5">
-                    <Check className="w-3 h-3" />
-                  </div>
-                  <div>
-                    <strong className="text-white">BÔNUS 6: Guia de Chute Técnico e Gestão de Tempo de Prova</strong>
-                    <span className="text-slate-400 text-xs block">Como eliminar distratores do Inep e gerenciar os 3 minutos por questão.</span>
+                    <strong className="text-amber-300">BÔNUS 5: 4 Pilares Fundamentais para Medicina no ENEM</strong>
+                    <span className="text-slate-400 text-xs block">Foco, Método, Mentalidade Vencedora e Melhoria Contínua para vagas concorridas.</span>
                   </div>
                 </div>
               </div>
@@ -376,7 +366,7 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
             </h3>
 
             <p className="text-xs sm:text-sm text-slate-300 mb-4 sm:mb-5 leading-relaxed max-w-md mx-auto">
-              Não vá para a prova desprotegido. Liberamos uma condição única para você levar o <strong>Guia Principal + Todos os 6 Bônus Aceleradores</strong> por uma diferença mínima:
+              Não vá para a prova desprotegido. Liberamos uma condição única para você levar o <strong>Guia Principal + Todos os 5 Bônus Aceleradores</strong> por uma diferença mínima:
             </p>
 
             {/* Price Box */}
@@ -400,15 +390,19 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
               </div>
               <div className="flex items-center gap-2">
                 <Check className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                <span><strong>15 Repertórios Coringas Redação 900+</strong> (Com modelo pronto)</span>
+                <span><strong>Cronograma ENEM:</strong> Plano de Estudo Completo e Metas</span>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                <span><strong>Cronogramas de Choque:</strong> 30, 15 e 7 dias de estudo</span>
+                <span><strong>Repertórios Coringas Redação 900+</strong> (Argumentos prontos)</span>
               </div>
               <div className="flex items-center gap-2">
                 <Check className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                <span><strong>Mapas Mentais de Fórmulas</strong> + Flashcards + Chute Técnico</span>
+                <span><strong>Mapa de Fórmulas Exatas</strong> + Flashcards ENEM</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <Check className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                <span><strong>4 Pilares Fundamentais para Medicina no ENEM</strong></span>
               </div>
             </div>
 

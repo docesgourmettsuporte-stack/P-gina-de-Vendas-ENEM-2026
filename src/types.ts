@@ -7,6 +7,7 @@ export interface BonusItem {
   originalPrice: number;
   iconName: string;
   highlightTag?: string;
+  image?: string;
 }
 
 export interface OrderBumpItem {
