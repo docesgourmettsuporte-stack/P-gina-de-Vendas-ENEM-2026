@@ -8,9 +8,7 @@ import {
   Zap, 
   ClockAlert, 
   HeartPulse,
-  Sparkles, 
-  ArrowRight,
-  ShieldAlert
+  ArrowRight
 } from 'lucide-react';
 import { BONUSES } from '../data/landingData';
 
@@ -44,7 +42,7 @@ export const BonusesSection: React.FC<BonusesSectionProps> = ({ onOpenCheckout }
             <span className="text-amber-400">Receba um arsenal completo de aprovação.</span>
           </h2>
           <p className="text-slate-300 text-base sm:text-lg">
-            Ao garantir o seu acesso hoje pelo valor promocional de <strong className="text-amber-400">R$ 27,90</strong>, você leva gratuitamente estes 5 materiais aceleradores avaliados em mais de <span className="line-through text-slate-400">R$ 105,40</span>:
+            Ao garantir o seu acesso hoje pelo valor promocional de <strong className="text-amber-400">R$ 27,90</strong>, você leva gratuitamente estes 5 materiais aceleradores avaliados em mais de <span className="line-through text-slate-400">R$ 109,50</span>:
           </p>
         </div>
 
@@ -86,10 +84,6 @@ export const BonusesSection: React.FC<BonusesSectionProps> = ({ onOpenCheckout }
                         loading="lazy"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-slate-950/40 via-transparent to-transparent pointer-events-none" />
-                      <div className="absolute bottom-2.5 left-2.5 bg-slate-950/85 backdrop-blur-md px-2 py-0.5 rounded text-[10px] font-mono text-amber-300 font-bold border border-amber-500/20 flex items-center gap-1 shadow">
-                        <Sparkles className="w-3 h-3 text-amber-400" />
-                        <span>Mockup 3D Oficial</span>
-                      </div>
                     </div>
                   )}
 

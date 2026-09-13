@@ -140,19 +140,27 @@ export const PricingOfferBox: React.FC<PricingOfferBoxProps> = ({ onOpenCheckout
                   <span><strong>Acesso Imediato:</strong> Download no celular, tablet e computador</span>
                 </div>
 
-                {/* What is not included in Basic */}
-                <div className="pt-2 space-y-2 border-t border-slate-800/80 text-[11px] text-slate-500">
+                {/* What is not included in Basic (Loss Aversion) */}
+                <div className="pt-3 space-y-2 border-t border-slate-800/80 text-[11px] text-rose-300/70">
                   <div className="flex items-center gap-2">
-                    <X className="w-3.5 h-3.5 text-slate-600 shrink-0" />
-                    <span className="line-through">Esqueleto Coringa de Redação 900+</span>
+                    <X className="w-3.5 h-3.5 text-rose-500 shrink-0" />
+                    <span className="line-through">Sem os 5 Bônus Estratégicos</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <X className="w-3.5 h-3.5 text-slate-600 shrink-0" />
-                    <span className="line-through">Cronogramas de Choque (30, 15 e 7 Dias)</span>
+                    <X className="w-3.5 h-3.5 text-rose-500 shrink-0" />
+                    <span className="line-through">Sem Repertórios Coringas Redação 900+</span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <X className="w-3.5 h-3.5 text-slate-600 shrink-0" />
-                    <span className="line-through">Mapas Mentais de Fórmulas e Mnemônicos</span>
+                    <X className="w-3.5 h-3.5 text-rose-500 shrink-0" />
+                    <span className="line-through">Sem Cronograma ENEM — Plano Completo</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <X className="w-3.5 h-3.5 text-rose-500 shrink-0" />
+                    <span className="line-through">Sem Mapa de Fórmulas & Flashcards ENEM</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <X className="w-3.5 h-3.5 text-rose-500 shrink-0" />
+                    <span className="line-through">Sem Manual dos 4 Pilares para Medicina</span>
                   </div>
                 </div>
               </div>

@@ -85,89 +85,94 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onScrollToSection, onO
           </div>
         </div>
 
-        {/* 4 Core Value Cards matching screenshot */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 sm:gap-4 max-w-4xl mx-auto mb-10">
+        {/* 4 Core Value Cards matching real deliverables */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5 sm:gap-4 max-w-5xl mx-auto mb-10">
           {/* Card 1: Técnica 80/20 */}
-          <div className="flex items-center gap-4 bg-slate-900/60 hover:bg-slate-900/80 border border-slate-800/90 hover:border-slate-700/80 p-4 sm:p-5 rounded-2xl sm:rounded-3xl transition-all shadow-lg backdrop-blur-sm">
-            <div className="w-12 h-12 rounded-2xl bg-[#332213] border border-[#78461b] flex items-center justify-center shrink-0">
-              <Check className="w-6 h-6 text-amber-400 stroke-[2.5]" />
+          <div className="flex items-center gap-3.5 bg-slate-900/80 hover:bg-slate-900 border border-slate-800/90 hover:border-amber-500/40 p-4 rounded-2xl transition-all shadow-lg backdrop-blur-sm group">
+            <div className="w-11 h-11 rounded-xl bg-[#332213] border border-[#78461b] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+              <Check className="w-5 h-5 text-amber-400 stroke-[2.5]" />
             </div>
             <div className="text-left">
-              <h4 className="text-white font-bold text-sm sm:text-base leading-tight">
+              <h4 className="text-white font-bold text-sm leading-tight">
                 Técnica 80/20
               </h4>
-              <p className="text-slate-400 text-xs sm:text-sm mt-0.5">
-                Foque no que realmente cai.
+              <p className="text-slate-400 text-xs mt-0.5">
+                18 temas que são 73% da prova.
               </p>
             </div>
           </div>
 
           {/* Card 2: Redação 900+ */}
-          <div className="flex items-center gap-4 bg-slate-900/60 hover:bg-slate-900/80 border border-slate-800/90 hover:border-slate-700/80 p-4 sm:p-5 rounded-2xl sm:rounded-3xl transition-all shadow-lg backdrop-blur-sm">
-            <div className="w-12 h-12 rounded-2xl bg-[#1c1d3b] border border-[#3e428c] flex items-center justify-center shrink-0">
+          <div className="flex items-center gap-3.5 bg-slate-900/80 hover:bg-slate-900 border border-slate-800/90 hover:border-indigo-500/40 p-4 rounded-2xl transition-all shadow-lg backdrop-blur-sm group">
+            <div className="w-11 h-11 rounded-xl bg-[#1c1d3b] border border-[#3e428c] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
               <Star className="w-5 h-5 text-indigo-400 fill-indigo-400" />
             </div>
             <div className="text-left">
-              <h4 className="text-white font-bold text-sm sm:text-base leading-tight">
+              <h4 className="text-white font-bold text-sm leading-tight">
                 Redação 900+
               </h4>
-              <p className="text-slate-400 text-xs sm:text-sm mt-0.5">
-                Modelos coringas prontos.
+              <p className="text-slate-400 text-xs mt-0.5">
+                Esqueletos coringas pré-prontos.
               </p>
             </div>
           </div>
 
           {/* Card 3: Alavancagem TRI */}
-          <div className="flex items-center gap-4 bg-slate-900/60 hover:bg-slate-900/80 border border-slate-800/90 hover:border-slate-700/80 p-4 sm:p-5 rounded-2xl sm:rounded-3xl transition-all shadow-lg backdrop-blur-sm">
-            <div className="w-12 h-12 rounded-2xl bg-[#112d2b] border border-[#1b6b5c] flex items-center justify-center shrink-0">
+          <div className="flex items-center gap-3.5 bg-slate-900/80 hover:bg-slate-900 border border-slate-800/90 hover:border-emerald-500/40 p-4 rounded-2xl transition-all shadow-lg backdrop-blur-sm group">
+            <div className="w-11 h-11 rounded-xl bg-[#112d2b] border border-[#1b6b5c] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
               <TrendingUp className="w-5 h-5 text-emerald-400 stroke-[2.2]" />
             </div>
             <div className="text-left">
-              <h4 className="text-white font-bold text-sm sm:text-base leading-tight">
+              <h4 className="text-white font-bold text-sm leading-tight">
                 Alavancagem TRI
               </h4>
-              <p className="text-slate-400 text-xs sm:text-sm mt-0.5">
-                Ganhe +140 a 220 pontos.
+              <p className="text-slate-400 text-xs mt-0.5">
+                Ganhe até +170 pts nas fáceis.
               </p>
             </div>
           </div>
 
-          {/* Card 4: Super Planilha */}
-          <div className="flex items-center gap-4 bg-slate-900/60 hover:bg-slate-900/80 border border-slate-800/90 hover:border-slate-700/80 p-4 sm:p-5 rounded-2xl sm:rounded-3xl transition-all shadow-lg backdrop-blur-sm">
-            <div className="w-12 h-12 rounded-2xl bg-[#2a1738] border border-[#6b2c8a] flex items-center justify-center shrink-0">
+          {/* Card 4: 5 Bônus Inclusos */}
+          <div className="flex items-center gap-3.5 bg-slate-900/80 hover:bg-slate-900 border border-slate-800/90 hover:border-amber-500/40 p-4 rounded-2xl transition-all shadow-lg backdrop-blur-sm group">
+            <div className="w-11 h-11 rounded-xl bg-[#2a1738] border border-[#6b2c8a] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
               <Zap className="w-5 h-5 text-fuchsia-400 fill-fuchsia-400" />
             </div>
             <div className="text-left">
-              <h4 className="text-white font-bold text-sm sm:text-base leading-tight">
-                Super Planilha
+              <h4 className="text-white font-bold text-sm leading-tight">
+                5 Bônus Oficiais
               </h4>
-              <p className="text-slate-400 text-xs sm:text-sm mt-0.5">
-                Rotina tática sem ansiedade.
+              <p className="text-slate-400 text-xs mt-0.5">
+                Cronograma, Fórmulas e Medicina.
               </p>
             </div>
           </div>
         </div>
 
-        {/* Direct Clean CTA */}
-        <div className="flex flex-col items-center justify-center gap-3 text-center max-w-md mx-auto">
+        {/* Direct High-Converting CTA Box */}
+        <div className="flex flex-col items-center justify-center gap-3 text-center max-w-lg mx-auto">
           <button
             id="hero-primary-cta"
             onClick={() => onScrollToSection('oferta')}
-            className="w-full py-4 px-6 bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-slate-950 font-black text-base rounded-xl shadow-lg hover:shadow-amber-500/20 transition-all flex items-center justify-center gap-2 cursor-pointer active:scale-[0.98]"
+            className="w-full py-4 sm:py-4.5 px-6 sm:px-8 bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-slate-950 font-black text-base sm:text-lg rounded-2xl shadow-xl shadow-amber-500/25 hover:shadow-amber-500/40 transition-all flex items-center justify-center gap-2.5 cursor-pointer active:scale-[0.98] group"
           >
-            <span>VER OS PLANOS E GARANTIR ACESSO</span>
-            <ArrowRight className="w-4 h-4" />
+            <span>QUERO SALVAR MINHA NOTA NO ENEM</span>
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </button>
 
-          <div className="flex items-center justify-center gap-4 text-xs text-slate-400">
-            <span className="flex items-center gap-1 text-emerald-400 font-medium">
+          {/* Value Micro-Pills */}
+          <div className="flex flex-wrap items-center justify-center gap-3 text-xs text-slate-400 mt-1">
+            <span className="flex items-center gap-1.5 text-emerald-400 font-semibold">
               <ShieldCheck className="w-4 h-4" />
-              Garantia Incondicional de 30 Dias
+              Garantia Blindada de 30 Dias
             </span>
-            <span>•</span>
-            <span className="flex items-center gap-1 text-slate-300 font-medium">
+            <span className="text-slate-600">•</span>
+            <span className="flex items-center gap-1.5 text-amber-300 font-semibold">
               <Zap className="w-4 h-4 text-amber-400" />
-              Acesso Imediato
+              Acesso Imediato no E-mail e WhatsApp
+            </span>
+            <span className="text-slate-600 hidden sm:inline">•</span>
+            <span className="text-slate-300 hidden sm:inline font-mono">
+              Planos a partir de <strong>R$ 14,99</strong>
             </span>
           </div>
         </div>
